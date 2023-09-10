@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Class</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Add Class</h2><br><br>
+                <form>
+                    <div class="form-group">
+                        <label for="timing">Class Timings</label>
+                        <input type="text" class="form-control col-sm-3" id="from" placeholder="From"> -
+                        <input type="text" class="form-control col-md-3" id="to" placeholder="To">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="schedule">Class Schedule</label>
+                        <input type="text" class="form-control" id="schedule" placeholder="Enter Class Schedule">
+                    </div>
+                    <div class="form-group">
+                        <label for="teacher">Teacher's Name</label>
+                        <select class="form-control" id="teacher">
+                            <option>Sir Ishaq</option>
+                            <option>Sir Ghous</option>
+                            <option>Miss Iqra</option>
+                            <option>Miss Hina</option>
+                           
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="section">Section Name</label>
+                        <input type="text" class="form-control" id="section" placeholder="Enter Section Name">
+                    </div>
+                   
+                    <div class="form-group">
+                        <label for="coursename">Course Name</label>
+                        <select class="form-control" id="coursename">
+                            <option>Web and Mobile Ap Development</option>
+                            <option>Graphic Designing</option>
+                            <option>3D Animation</option>
+                            <option>Machine Learning</option>
+                            <option>Web 3.0 Metaverse</option>
+                            <option>Mobile Repairing</option>
+                            <option>SEO</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="batch">Batch Number</label>
+                        <input type="text" class="form-control" id="signup-batch" placeholder="Enter Batch Number">
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block" id="btnclass">Create Class</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/config.js"></script>
+    <script type="module" src="./assets/js/auth.js"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
